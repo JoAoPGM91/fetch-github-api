@@ -121,6 +121,12 @@ main {
   line-height: 23px;
 }
 
+.container .profile-data .info p span{
+  color: hotpink;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 /* REPOSITORIES */
 
 .container .profile-data .repositories h2{
@@ -143,6 +149,17 @@ main {
   transition: 0.3s ease-in-out;
 }
 
+.container .profile-data .repositories ul li a .repo_icons{
+  margin-top: 5px;
+  display: flex;
+}
+
+.container .profile-data .repositories ul li a .repo_icons h2{
+  background-color: rgba(98, 16, 175, 0.575);
+  border-radius: 5px;
+  margin: 0 2px;
+}
+
 .container .profile-data .repositories ul li a:hover{
   background-color:hotpink;
   color: #fff
@@ -150,6 +167,36 @@ main {
 
 .container .profile-data.hide{
   display: none;
+}
+
+/* EVENTS */
+
+.container .profile-data .events {
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+.container .profile-data .events p{
+  font-size: 15px;  
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.container .profile-data .events p span{
+  color: hotpink;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.container .profile-data .events h2{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container .profile-data .events ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (max-width: 1280px) {
